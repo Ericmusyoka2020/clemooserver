@@ -6,12 +6,12 @@ const app = express();
 const PORT = 3000;
 
 // === CONFIG ===
-const AUTH_TOKEN = "Basic T2h5cWJBRXZSSkQ1dHhNc1F1bG06R29SRzgwTFFocW00Mm81TDBmMXAzQmU0bTgxVjFyYWRrcTlVUGhJbg==";
+const AUTH_TOKEN = "Basic WTd1cXVWdU9mOHZMTHVyR0k4WG86RkhmT1NBRDdxWndLRW13SHdmazJtczdPdkNRY0VYVWNjaHJiZDN4aw==";
 const ACCOUNT_ID = 10525;
 const CHANNEL_ID = 10101;
 const PAYHERO_URL = "https://backend.payhero.co.ke/api/v2/payments";
 
-const CALLBACK_URL = "https://parero.vercel.app/api/callback";
+const CALLBACK_URL = "https://clemooserver.vercel.app/api/callback";
 // =================
 
 app.use(cors());
